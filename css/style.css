@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+/* Navigation */
+
+nav .my-nav {
+   
+}
+
+nav .nav-btn {
+    display: block;
+    border-radius: 0.3rem ;
+    color: rgb(255, 255, 255) !important;
+    background-color: red;
+    
+}
