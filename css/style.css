@@ -11,14 +11,25 @@ html {
 
 /* Navigation */
 
-nav .my-nav {
+/* nav .my-nav {
    
-}
+} */
 
 nav .nav-btn {
     display: block;
     border-radius: 0.3rem ;
     color: rgb(255, 255, 255) !important;
-    background-color: red;
-    
+    background-color: red;  
+}
+
+/* Counter Section */
+
+.counter-section {
+    background-color: brown;
+    color: white;
+    padding-top: 0.8rem;
+}
+
+.counter-section h2 {
+   
 }
