@@ -37,3 +37,29 @@ nav .nav-btn {
 .counter-section p {
     font-size: 0.8rem;
 }
+
+/* About Section */
+
+#about {
+    margin: 3rem 0;
+}
+
+.top-about {
+    margin: 3rem 0;
+}
+
+.top-about img {
+    border-radius: 8px;
+}
+
+.top-about .about-text {
+    padding: 3rem;
+}
+
+.top-about .about-text p {
+    font-size: 0.9rem;
+}
+
+.top-about .about-text button {
+    margin-top: 2rem;
+}
