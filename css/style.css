@@ -56,10 +56,32 @@ nav .nav-btn {
     padding: 3rem;
 }
 
+.top-about .about-text h3 {
+    color: brown;
+}
+
 .top-about .about-text p {
     font-size: 0.9rem;
+    color: gray;
 }
 
 .top-about .about-text button {
     margin-top: 2rem;
+}
+
+.about-02 {
+    margin: 3rem 0;
+}
+
+.about-02 .about-02-text {
+    margin: 2rem 0;
+}
+
+.about-02 .about-02-text h3 {
+    color: brown;
+}
+
+.about-02 .about-02-text p {
+    font-size: 0.9rem;
+    color: gray;
 }
