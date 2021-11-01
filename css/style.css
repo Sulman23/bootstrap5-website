@@ -100,3 +100,35 @@ nav .nav-btn {
     color: brown;
     margin-right: 0.225rem;
 }
+
+/* story section */
+
+.story-sec {
+    background-image: url(../images/bg/bg-2.jpg);
+    background-position: center;
+    background-size:cover;
+    padding: 5rem 7rem;
+}
+
+.story-sec h2 {
+    color: brown;
+}
+
+.story-sec p {
+    color: gray;
+}
+
+/* foods cards section */
+
+.my-foods {
+    margin: 4rem 0;
+}
+
+.my-foods h2 {
+    color: brown;
+}
+
+.my-foods p {
+    color: gray;
+    font-size: 0.875rem;
+}
