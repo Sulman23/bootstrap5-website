@@ -74,14 +74,29 @@ nav .nav-btn {
 }
 
 .about-02 .about-02-text {
-    margin: 2rem 0;
+    margin: 6rem 0 0 0;
 }
 
 .about-02 .about-02-text h3 {
     color: brown;
+    margin-bottom: 1.5rem;
 }
 
 .about-02 .about-02-text p {
     font-size: 0.9rem;
     color: gray;
+}
+
+.about-02 ul {
+    margin-bottom: 2rem;
+}
+
+.about-02 ul li {
+    font-size: 0.875rem;
+    color: gray;
+}
+
+.about-02 ul li i {
+    color: brown;
+    margin-right: 0.225rem;
 }
