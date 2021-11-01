@@ -191,3 +191,27 @@ nav .nav-btn {
 .testmonial-slider .testmonial-name {
     color: brown;
 }
+
+/* Faq Section */
+
+#faq-section {
+    margin: 3rem 0;
+}
+
+.faqs h5 {
+    color: brown;
+}
+
+.faqs p {
+    color: gray;
+    font-size: small;
+}
+
+.faq-heading {
+    margin: 2rem 0 3rem 0;
+    color: brown;
+}
+
+.faqs .faq-01 {
+    margin-bottom: 3rem;
+}
