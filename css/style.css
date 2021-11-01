@@ -226,3 +226,13 @@ nav .nav-btn {
     background-repeat: no-repeat;
     padding: 4rem;
 }
+
+/* Newsletter Section */
+
+#newsletter-section {
+    margin: 3rem 0;
+}
+
+.newsletter h3{
+    color: brown;
+}
