@@ -121,7 +121,7 @@ nav .nav-btn {
 /* foods cards section */
 
 .my-foods {
-    margin: 4rem 0;
+    margin: 3rem 0 0 0;
 }
 
 .my-foods h2 {
@@ -131,4 +131,63 @@ nav .nav-btn {
 .my-foods p {
     color: gray;
     font-size: 0.875rem;
+}
+
+/* food cards */
+
+.food-cards {
+    margin: 3rem 0;
+}
+
+.food-cards .card {
+    border: none !important;
+}
+.food-cards .card img {
+    border-radius: 1rem;
+}
+
+.food-cards .card-body {
+    padding-left:0;
+}
+
+.food-cards .card-title {
+    color: brown;
+    font-size: 1.2rem;
+}
+
+.food-cards .card-body .less-price {
+    color: brown;
+}
+
+.food-cards .card-body .real-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+/* Testimonial Section */
+
+#testomonial .slider-wrapper {
+    background-color:brown;
+    padding: 4rem;
+}
+
+.slider-wrapper .testmonial-heading h2 {
+    color: white;
+    margin: 3rem 0;
+}
+
+.testmonial-slider {
+    background-color:white;
+    padding: 3rem;
+   border-radius: 10px;
+}
+
+.testmonial-slider img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.testmonial-slider .testmonial-name {
+    color: brown;
 }
