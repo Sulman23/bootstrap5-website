@@ -247,3 +247,24 @@ nav .nav-btn {
     width: 350px;
     border: 1px solid brown;
 }
+
+/* footer styling */
+footer {
+    background-color: brown;
+    padding: 1rem;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: gray;
+}
+
+footer i {
+    font-size: 3rem;
+    margin-left: 5px;
+}
