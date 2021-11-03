@@ -9,21 +9,47 @@ html {
     scroll-behavior:smooth;
 }
 
+/* main button */
+
+.my-btn {
+    background-color: brown;
+    color: white;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
 /* Navigation */
 
+.navbar-brand {
+    color: coral !important;
+}
 
-/* nav .my-nav */
+.navbar-nav li button {
+    margin-left: 1rem;
+}
+/* 
+.navbar-nav li a:active,
+.navbar-nav li a:focus {
+    border-top: 1px solid red;
+} */
 
 /* Top Slider */
 
-.top-slider 
-
-nav .nav-btn {
-    display: block;
-    border-radius: 0.3rem ;
-    color: rgb(255, 255, 255) !important;
-    background-color: red;  
+.top-slider h2 {
+    font-size: 3rem;
+    font-weight: 600;
 }
+
+
 
 /* Counter Section */
 
@@ -113,12 +139,8 @@ nav .nav-btn {
     padding: 5rem 7rem;
 }
 
-.story-sec h2 {
-    color: brown;
-}
-
-.story-sec p {
-    color: gray;
+.story-sec {
+    color: white;
 }
 
 /* foods cards section */
