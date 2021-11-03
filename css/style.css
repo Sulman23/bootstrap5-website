@@ -1,31 +1,57 @@
-* {
+*,
+*:after,
+*:before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-box-sizing: border-box;
 }
 
 html {
     scroll-behavior:smooth;
 }
 
-/* main button */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+}
+
+/* custom css */
 
 .my-btn {
     background-color: brown;
+    border: 1px solid brown;
     color: white;
+    display: inline-block;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px-10px rgba(0, 0, 0, 19%);
+    transition: all .4s ease-out 0s;
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
 }
-/* 
+
+.my-btn:hover {
+    background-color: transparent;
+    color: brown;
+}
+
 h2 {
     font-size: 3rem;
     font-weight: 600;
+    text-transform:uppercase;
+    color: white;
 }
 
 h3 {
     font-size: 1.5rem;
     font-weight: 600;
+    text-transform: capitalize;
+    color: brown;
+    margin-bottom: 1.5rem;
 }
- */
 
 /* Navigation */
 
@@ -59,15 +85,12 @@ h3 {
     font-size: 0.8rem;
 }
 
+
 /* About Section */
+
 
 .top-about img {
     border-radius: 8px;
-}
-
-
-.top-about .about-text h3 {
-    color: brown;
 }
 
 .top-about .about-text p {
@@ -75,9 +98,8 @@ h3 {
     color: gray;
 }
 
-.about-02 .about-02-text h3 {
-    color: brown;
-}
+
+/* about 02 part */
 
 .about-02 .about-02-text p {
     font-size: 0.9rem;
@@ -106,10 +128,6 @@ h3 {
 }
 
 /* foods cards section */
-
-.my-foods h2 {
-    color: brown;
-}
 
 .my-foods p {
     color: gray;
