@@ -15,7 +15,7 @@ html {
     background-color: brown;
     color: white;
 }
-
+/* 
 h2 {
     font-size: 3rem;
     font-weight: 600;
@@ -25,7 +25,7 @@ h3 {
     font-size: 1.5rem;
     font-weight: 600;
 }
-
+ */
 
 /* Navigation */
 
@@ -33,9 +33,6 @@ h3 {
     color: coral !important;
 }
 
-.navbar-nav li button {
-    margin-left: 1rem;
-}
 /* 
 .navbar-nav li a:active,
 .navbar-nav li a:focus {
@@ -56,11 +53,6 @@ h3 {
 .counter-section {
     background-color: brown;
     color: white;
-    padding: 1.2rem 0 0 0;
-}
-
-.counter-section h3 {
-    font-weight: 600;
 }
 
 .counter-section p {
@@ -69,21 +61,10 @@ h3 {
 
 /* About Section */
 
-#about {
-    margin: 3rem 0;
-}
-
-.top-about {
-    margin: 3rem 0;
-}
-
 .top-about img {
     border-radius: 8px;
 }
 
-.top-about .about-text {
-    padding: 3rem;
-}
 
 .top-about .about-text h3 {
     color: brown;
@@ -94,30 +75,13 @@ h3 {
     color: gray;
 }
 
-.top-about .about-text button {
-    margin-top: 2rem;
-}
-
-.about-02 {
-    margin: 3rem 0;
-}
-
-.about-02 .about-02-text {
-    margin: 6rem 0 0 0;
-}
-
 .about-02 .about-02-text h3 {
     color: brown;
-    margin-bottom: 1.5rem;
 }
 
 .about-02 .about-02-text p {
     font-size: 0.9rem;
     color: gray;
-}
-
-.about-02 ul {
-    margin-bottom: 2rem;
 }
 
 .about-02 ul li {
@@ -127,7 +91,6 @@ h3 {
 
 .about-02 ul li i {
     color: brown;
-    margin-right: 0.225rem;
 }
 
 /* story section */
@@ -136,7 +99,6 @@ h3 {
     background-image: url(../images/bg/bg-1.jpg);
     background-position: center;
     background-size:cover;
-    padding: 5rem 7rem;
 }
 
 .story-sec {
@@ -144,10 +106,6 @@ h3 {
 }
 
 /* foods cards section */
-
-.my-foods {
-    margin: 3rem 0 0 0;
-}
 
 .my-foods h2 {
     color: brown;
@@ -159,10 +117,6 @@ h3 {
 }
 
 /* food cards */
-
-.food-cards {
-    margin: 3rem 0;
-}
 
 .food-cards .card {
     border: none !important;
@@ -193,17 +147,17 @@ h3 {
 
 #testomonial .slider-wrapper {
     background-color:brown;
-    padding: 4rem;
+   
 }
 
 .slider-wrapper .testmonial-heading h2 {
     color: white;
-    margin: 3rem 0;
+    
 }
 
 .testmonial-slider {
     background-color:white;
-    padding: 3rem;
+   
    border-radius: 10px;
 }
 
@@ -219,10 +173,6 @@ h3 {
 
 /* Faq Section */
 
-#faq-section {
-    margin: 3rem 0;
-}
-
 .faqs h5 {
     color: brown;
 }
@@ -233,13 +183,9 @@ h3 {
 }
 
 .faq-heading {
-    margin: 2rem 0 3rem 0;
     color: brown;
 }
 
-.faqs .faq-01 {
-    margin-bottom: 3rem;
-}
 
 /* parallax section */
 
@@ -254,10 +200,6 @@ h3 {
 
 /* Newsletter Section */
 
-#newsletter-section {
-    margin: 3rem 0;
-}
-
 .newsletter h3{
     color: brown;
 }
@@ -268,7 +210,6 @@ h3 {
 }
 
 .newsletter input {
-    padding: 0.5rem;
     width: 350px;
     border: 1px solid brown;
 }
@@ -276,7 +217,6 @@ h3 {
 /* footer styling */
 footer {
     background-color: brown;
-    padding: 1rem;
     color: white;
 }
 
@@ -291,5 +231,4 @@ footer a:hover {
 
 footer i {
     font-size: 3rem;
-    margin-left: 5px;
 }
