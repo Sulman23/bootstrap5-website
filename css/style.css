@@ -130,7 +130,7 @@ h3 {
 }
 
 .story-sec {
-    color: white;
+    color: #333;
 }
 
 /* foods cards section */
@@ -219,6 +219,10 @@ h3 {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 4rem;
+}
+
+#parallax h3 {
+    color: white;
 }
 
 /* Newsletter Section */
