@@ -213,6 +213,10 @@ h3 {
     font-weight: 600;
 }
 
+.faqs i {
+    font-size: 0.875rem;
+}
+
 .faqs p {
     color: gray;
     font-size: small;
