@@ -85,13 +85,20 @@ h3 {
 
 /* Counter Section */
 
-.counter-section {
+.services-section {
     background-color: brown;
     color: white;
 }
 
-.counter-section p {
-    font-size: 0.8rem;
+.services-section h5 {
+    font-size: 1.8rem;
+}
+
+.services-section a,
+.services-section a:active,
+.services-section a:hover {
+    color: white;
+    text-decoration: none;
 }
 
 
