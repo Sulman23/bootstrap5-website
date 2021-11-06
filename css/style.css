@@ -11,6 +11,7 @@
 
 /* a {
     text-decoration: none;
+
 } */
 
 html {
@@ -69,32 +70,31 @@ h3 {
     color: coral !important;
 }
 
-  
-  .nav-link::after {
+.nav-link::after {
     content: '';
     display: block;
     width: 0;
     height: 2px;
     background: brown;
     transition: width .3s;
-  }
-  
-  .nav-link:hover::after {
-    width: 100%;
-  }
-  
-  .navbar-nav>.active>a {
-    color: brown;
-  }
+}
 
-  .scroll-on {
-      top: 0;
-      left: 0;
-      color: brown !important;
-      background-color: white;
-      width: 100%;
-      transition: all .15s ease-in-out 0s;
-  }
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-nav>.active>a {
+    color: brown;
+}
+
+.scroll-on {
+    top: 0;
+    left: 0;
+    color: brown !important;
+    width: 100%;
+    transition: all .15s ease-in-out 0s;
+}
+
 /* Top Slider */
 
 .top-slider h2 {
