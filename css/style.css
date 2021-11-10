@@ -108,10 +108,11 @@ background: #6e0000;
     width: 100%;
 }
 
-.navbar-nav>.active>a {
-    color: brown; 
+.navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: unset;
 }
-
 
 /* Top Slider */
 
@@ -122,7 +123,7 @@ background: #6e0000;
 
 
 
-/* Counter Section */
+/* Services Section */
 
 .services-section {
     background-color: brown;
