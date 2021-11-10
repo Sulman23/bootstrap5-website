@@ -64,9 +64,10 @@ h3 {
     margin-bottom: 1.5rem;
 }
 
-/* Custom Scrollbar */
-/* width */
 
+/* Custom Scrollbar */
+
+/* width */
 ::-webkit-scrollbar {
     width: 10px;
   }
@@ -74,7 +75,6 @@ h3 {
 /* Track */
 ::-webkit-scrollbar-track {
 box-shadow: inset 0 0 5px grey; 
-border-radius: 10px;
 }
 
 /* Handle */
@@ -109,16 +109,9 @@ background: #6e0000;
 }
 
 .navbar-nav>.active>a {
-    color: brown;
+    color: brown; 
 }
 
-.scroll-on {
-    top: 0;
-    left: 0;
-    color: brown !important;
-    width: 100%;
-    transition: all .15s ease-in-out 0s;
-}
 
 /* Top Slider */
 
